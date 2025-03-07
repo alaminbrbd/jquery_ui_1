@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.ui-widget-header {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+#sortable li {
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    background: #ccc;
+    cursor: move;
+}
+
+
+#myDiv{
+    border:1px solid black;
+    text-align:center;
+}
+
+
+.hidden { display: none; }
+.highlight { background-color: yellow; }
+
+#draggable{
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+}
+/*  */
+.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
